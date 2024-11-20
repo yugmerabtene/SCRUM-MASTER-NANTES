@@ -638,6 +638,81 @@ Bien que le Burndown Chart soit un outil puissant, il présente certaines limita
 - **Sur-focus sur les chiffres** : Se concentrer uniquement sur la descente de la ligne peut inciter à négliger la qualité du travail pour terminer rapidement les tâches.
   - **Solution** : Équilibrer l'attention entre la progression quantitative et la qualité du travail. Rappeler que l'objectif est de livrer de la valeur ajoutée, pas seulement de "brûler" des points.
 
+  Les **burndown charts** et **burnup charts** sont des outils visuels utilisés dans Agile Scrum pour suivre l'avancement du travail d'une équipe pendant un sprint ou un projet. Voici les différences entre ces deux graphiques et d'autres types de graphiques utilisés en Agile Scrum.
+
+### 1. **Burndown Chart**
+- **Définition** : Un **burndown chart** montre la quantité de travail restante à accomplir par rapport au temps.
+- **Axe X (horizontal)** : Le temps (jours ou sprints).
+- **Axe Y (vertical)** : La quantité de travail restante (en points de story, heures, etc.).
+- **Interprétation** : Une courbe descendante indique la progression de l'équipe vers la complétion du sprint. Si la courbe descend sous la ligne idéale, l'équipe est en avance ; si elle est au-dessus, l'équipe est en retard.
+
+**Usage principal** : Suivre la réduction progressive du travail restant pendant un sprint.
+
+**Avantages** :
+- Visualise la vitesse de travail de l'équipe.
+- Permet d'identifier rapidement si l'équipe est en avance ou en retard.
+
+**Limites** :
+- Ne montre pas l'évolution de la portée du travail (si des tâches sont ajoutées ou supprimées).
+
+### 2. **Burnup Chart**
+- **Définition** : Un **burnup chart** montre la quantité de travail complétée par rapport au total du travail à faire. Il indique également les changements dans la portée du projet.
+- **Axe X (horizontal)** : Le temps (jours ou sprints).
+- **Axe Y (vertical)** : La quantité de travail total et accompli (en points de story, heures, etc.).
+- **Interprétation** : Deux lignes : l'une représentant le travail accompli (montante) et l'autre la portée totale du projet (stagnante ou croissante). La distance entre les deux lignes montre le travail restant.
+
+**Usage principal** : Suivre la progression du travail terminé tout en gardant une vue sur l'évolution de la portée.
+
+**Avantages** :
+- Visualise l'évolution de la portée du projet.
+- Montre l'achèvement par rapport à l'objectif global.
+- Utile pour voir à la fois la progression et les modifications de la portée.
+
+**Limites** :
+- Peut être moins intuitif que le burndown chart pour les débutants.
+
+### 3. **Cumulative Flow Diagram (CFD)**
+- **Définition** : Un diagramme qui montre le flux de travail à travers différentes étapes du processus (To Do, In Progress, Done).
+- **Axes** :
+  - **X (horizontal)** : Le temps.
+  - **Y (vertical)** : Le nombre de tâches.
+- **Interprétation** : Différentes couleurs représentent les étapes du flux de travail. L'épaisseur de chaque couleur montre la quantité de travail à chaque étape. Un flux uniforme indique un bon processus, tandis qu'un goulot d'étranglement est visible par l'élargissement d'une couleur spécifique.
+
+**Usage principal** : Identifier les blocages dans le processus et mesurer le débit de l'équipe.
+
+**Avantages** :
+- Visualise les goulots d'étranglement.
+- Aide à équilibrer le flux de travail.
+
+**Limites** :
+- Peut nécessiter plus de compétences en lecture et interprétation que les burndown ou burnup charts.
+
+### 4. **Velocity Chart**
+- **Définition** : Un graphique montrant la vélocité de l'équipe sur plusieurs sprints. Il aide à comparer la capacité de l'équipe d'un sprint à l'autre.
+- **Axe X (horizontal)** : Les sprints.
+- **Axe Y (vertical)** : Les points de story complétés.
+- **Interprétation** : Chaque barre représente le total des points de story complétés par sprint. Une tendance à la hausse montre que l'équipe s'améliore, tandis qu'une tendance stable ou décroissante peut indiquer un problème.
+
+**Usage principal** : Aider à la planification des sprints futurs et à l'évaluation de la capacité de l'équipe.
+
+**Avantages** :
+- Simple à comprendre.
+- Utile pour prévoir les capacités futures.
+
+**Limites** :
+- Peut être influencé par des événements imprévus (changement de la taille de l'équipe, vacances, etc.).
+
+### **Comparaison des Différents Types de Graphiques**
+```
+| Type de graphique      | Usage principal                                     | Avantages                                            | Limites                                               |
+|------------------------|------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|
+| **Burndown Chart**     | Suivi de la quantité de travail restant             | Simple à utiliser, facile à comprendre               | Ne montre pas les changements de portée               |
+| **Burnup Chart**       | Suivi du travail complété et de la portée totale    | Montre les changements de portée, plus flexible      | Peut être moins intuitif                              |
+| **Cumulative Flow**    | Suivi du flux de travail et identification des blocages | Identifie les goulots d'étranglement, bon suivi global | Lecture plus complexe                                 |
+| **Velocity Chart**     | Comparaison de la vélocité sur plusieurs sprints    | Simple et utile pour la planification future         | Ne prend pas en compte les changements imprévus       |
+
+```
+
 ## 9. Exemple Pratique
 
 Illustrons le Burndown Chart avec un exemple concret.
