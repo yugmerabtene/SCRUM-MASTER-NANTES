@@ -459,9 +459,8 @@ Les points de story sont attribués à chaque tâche (ou user story) pour estime
 - Sprint 3 : 35 points de story
 
 La **vélocité moyenne** se calcule ainsi :
-\[
-\text{Vélocité moyenne} = \frac{30 + 25 + 35}{3} = 30 \text{ points par sprint}
-\]
+
+![image](https://github.com/user-attachments/assets/b246109e-9f6b-4141-82f8-f69fb2f41935)
 
 #### **b. Suivi sur le Burndown Chart**
 Un **burndown chart** est un graphique qui montre la quantité de travail restante par rapport au temps restant dans le sprint. Il aide à visualiser la progression et à vérifier si l'équipe est sur la bonne voie.
@@ -472,22 +471,19 @@ Un **burndown chart** est un graphique qui montre la quantité de travail restan
 La vélocité peut aussi être calculée en mesurant le nombre de tâches terminées lorsque celles-ci sont estimées de façon uniforme.
 
 **Exemple** : Si une équipe termine en moyenne 15 tâches par sprint, avec chaque tâche estimée à 2 points :
-\[
-\text{Vélocité} = 15 \times 2 = 30 \text{ points par sprint}
-\]
+![image](https://github.com/user-attachments/assets/6bf691ab-9853-4ed4-ada1-7ebe1ede6e7a)
+
 
 ### **3. Métriques de Performance Complémentaires**
 
 #### **a. Taux de Complétion**
 Le **taux de complétion** indique le pourcentage des user stories planifiées qui ont été terminées dans le sprint.
-\[
-\text{Taux de complétion} = \frac{\text{Nombre de points terminés}}{\text{Nombre de points planifiés}} \times 100
-\]
+![image](https://github.com/user-attachments/assets/29ba7d70-ad21-4187-9894-d412415ba02d)
+
 
 **Exemple** : Si l'équipe planifie 40 points de story et en termine 35, le taux de complétion est :
-\[
-\text{Taux de complétion} = \frac{35}{40} \times 100 = 87.5\%
-\]
+![image](https://github.com/user-attachments/assets/24c09c6a-63f2-4599-bbe4-f331d75fda46)
+
 
 #### **b. Lead Time et Cycle Time**
 - **Lead Time** : Temps total entre la création d'une tâche et sa livraison.
@@ -522,10 +518,10 @@ Supposons qu'une équipe utilise le Planning Poker pour estimer trois user stori
 - **Story B** : 8 points
 - **Story C** : 13 points
 
-Après un sprint où l'équipe a complété toutes les stories planifiées, la vélocité du sprint est :
-\[
-\text{Vélocité du sprint} = 5 + 8 + 13 = 26 \text{ points}
-\]
+Après un sprint où l'équipe a complété toutes les stories planifiées, la vélocité du sprint est :  
+
+![image](https://github.com/user-attachments/assets/e05c9322-09d6-4ace-99b7-cbd3d29cbcb3)
+
 
 Pour calculer la **vélocité moyenne** sur trois sprints :
 - Sprint 1 : 26 points
@@ -533,9 +529,8 @@ Pour calculer la **vélocité moyenne** sur trois sprints :
 - Sprint 3 : 30 points
 
 La moyenne est :
-\[
-\text{Vélocité moyenne} = \frac{26 + 28 + 30}{3} = 28 \text{ points par sprint}
-\]
+![image](https://github.com/user-attachments/assets/e5096d4b-daa3-4793-ac2a-d6b02ed46ea7)
+
 
 ### **6. Précautions et Bonnes Pratiques**
 - **Ne pas comparer la vélocité entre équipes.** Chaque équipe a ses propres critères d'estimation et contexte de travail.
