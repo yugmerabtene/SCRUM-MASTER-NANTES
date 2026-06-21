@@ -1,7 +1,5 @@
 # Module 4 — Vélocité de l'Équipe
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 

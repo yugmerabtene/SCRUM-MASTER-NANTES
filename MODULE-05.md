@@ -1,7 +1,5 @@
 # Module 5 — Burndown Chart et Métriques
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 

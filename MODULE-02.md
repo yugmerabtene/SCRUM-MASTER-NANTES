@@ -1,7 +1,5 @@
 # Module 2 — Leadership Serviteur et Coaching
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 

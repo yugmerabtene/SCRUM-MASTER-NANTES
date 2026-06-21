@@ -1,7 +1,5 @@
 # Module 3 — Estimation et Planification
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 

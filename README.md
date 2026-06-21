@@ -1,7 +1,5 @@
 # Formation Scrum Master — Nantes 2024
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 

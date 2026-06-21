@@ -1,7 +1,5 @@
 # Module 6 — Cérémonies Scrum et Gestion des Défis
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 

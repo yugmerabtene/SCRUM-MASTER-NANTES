@@ -1,7 +1,5 @@
 # Module 1 — Introduction à l'Agile et Scrum
 
-> **Auteur :** yugmerabtene
-> **Version :** 2.0
 
 ---
 
